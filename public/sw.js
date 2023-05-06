@@ -8,7 +8,7 @@ const urlsToCache = [
   '/js/main.js',
   '/images/logo.png',
   'https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js',
-  'index.html',
+  '/index.html',
   'https://www.googleapis.com/books/v1/volumes'
 ];
 
