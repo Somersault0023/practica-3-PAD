@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="./public/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Buscador de Libros usando React"/>
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="stylesheet" href="../src/styles.css" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="apple-touch-icon" href="./public/logo192.png" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="manifest" href="./public/manifest.json" />
     <title>Buscador de Libros</title>
     
     <script>
       // Comprobamos si el navegador ejecuta service workers
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          navigator.serviceWorker.register('./public/sw.js')
             .then(registration => {
               console.log('Service Worker registrado!', registration.scope);
             })
