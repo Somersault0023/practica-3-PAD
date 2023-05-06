@@ -9,11 +9,6 @@ const urlsToCache = [
   '/images/logo.png',
   'https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js',
   'index.html',
-  '/static/js/bundle.js',
-  '/static/css/main.chunk.css',
-  '/static/js/0.chunk.js',
-  '/static/js/1.chunk.js',
-  '/static/js/main.chunk.js',
   'https://www.googleapis.com/books/v1/volumes'
 ];
 
