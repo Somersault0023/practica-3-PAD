@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/practica-3-PAD/static/css/main.04fdf71f.css",
+    "main.js": "/practica-3-PAD/static/js/main.00296def.js",
+    "index.html": "/practica-3-PAD/index.html",
+    "main.04fdf71f.css.map": "/practica-3-PAD/static/css/main.04fdf71f.css.map",
+    "main.00296def.js.map": "/practica-3-PAD/static/js/main.00296def.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04fdf71f.css",
+    "static/js/main.00296def.js"
+  ]
+}
